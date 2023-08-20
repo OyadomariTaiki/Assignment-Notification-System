@@ -7,6 +7,8 @@ Pythonのseleniumを使用し、大学のマイページから課題の情報を
 
 LINEのapiを使用し、情報をLINEに送信しています。
 
+![IMG_8598](https://github.com/OyadomariTaiki/Assignment-Notification-System/assets/81083980/0411a823-2ab0-412f-9140-cca9b91009ef)
+
 **きっかけ**
 
 きっかけは大学の課題の期限などがバラバラで毎日マイページにログインして確認するのが面倒に感じたことです。
