@@ -16,10 +16,10 @@ wait = driver.implicitly_wait(20)
 driver.find_element_by_partial_link_text("ログインする").click()
 wait
 
-driver.find_element_by_name("ACCOUNTUID").send_keys("154R214067")
+driver.find_element_by_name("ACCOUNTUID").send_keys("*******")
 wait
 
-driver.find_element_by_name("PASSWORD").send_keys("Oya114514")
+driver.find_element_by_name("PASSWORD").send_keys("******")
 wait
 
 driver.find_element_by_name("SUBMIT").click()
@@ -769,7 +769,7 @@ if englishcommunication1_homework_title_tomorrow != None:
 
 def main():
     url = 'https://notify-api.line.me/api/notify'
-    access_token = 'CbjSqVlRJ3lLPG5qfer0VLEx7QEGIfevd5w6mAGfUC1'
+    access_token = '********'
     headers = {'Authorization': f'Bearer {access_token}'}
     message = '今日' + '\n' + \
         '\n'.join(send_contents_array_today) + '\n' + '明日' + \
